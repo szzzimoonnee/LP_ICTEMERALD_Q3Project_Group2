@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - Meowridery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="index.html">Home</a>
+            <a href="fare.html">Fare Matrix</a>
+            <a href="schedule.html">Schedule</a>
+            <a href="help.html">Help</a>
+        </div>
+
+        <div class="nav-center">
+            <img src="meowriderylogo.png" alt="logo">
+        </div>
+
+        <div class="nav-right">
+            <a href="book.html" class="book">Book Now</a>
+            <a href="signup.html" class="btn">Create account</a>
+        </div>
+    </nav>
+
+  <section class="main-box">
+
+    <div class="big-box">
+        <div class="big-text">
+            <h1>Welcome to <span class="pink-text">meowridery</span> Fare Guide!</h1>
+            <p class="click-text" onclick="showInstructions()">
+                &gt; Click here for instructions
+            </p>
+        </div>
+
+        <div class="big-logo">
+            <img src="meowriderylogo.png" alt="logo">
+        </div>
+    </div>
+
+    <div class="pink-box hidden" id="instructionBox">
+        <ol>
+            <li>Check Schedule</li>
+            <li>Click Fare Matrix</li>
+            <li>Choose Pick up and Drop off</li>
+            <li>Get your calculated fare!</li>
+        </ol>
+    </div>
+
+</section>
+
+
+    <footer class="footer">
+    Cheang, Tinio, Viola | 9 - Emerald 2026
+</footer>
+
+<script src="proj.js"></script>
+
+</body>
+</html>

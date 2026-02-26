@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+}
+
+body {
+    background-color: #9CAF9E;
+     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E8DFC7;
+    padding: 15px 40px;
+}
+
+.nav-left a,
+.nav-right a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.nav-left a:hover,
+.nav-right a:hover {
+    text-decoration: underline;
+}
+
+.nav-center img {
+    height: 90px;
+    width: auto;
+}
+
+.btn {
+    background-color: #8FA58E;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #6F8C6F;
+}
+
+.book {
+    font-weight: bold;
+}
+
+.hero {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.footer {
+    background-color: #E8DFC7;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: auto;
+}
+
+.instructions-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.click-text {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.big-box {
+    background-color: #5f645d;
+    border: 5px solid #d79aa4;
+    border-radius: 20px;
+    width: 800px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f5f1e6;
+}
+
+.big-text h1 {
+    font-size: 36px;
+}
+
+.pink-text {
+    color: #e7a6b1;
+}
+
+.big-logo img {
+    width: 180px;
+}
+
+.pink-box {
+    background-color: #d79aa4;
+    margin-top: 40px;
+    padding: 30px;
+    width: 500px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.fare-container {
+    background-color: #5f645d;
+    border: 6px solid #e7a6b1;
+    border-radius: 25px;
+    padding: 40px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f5f1e6;
+}
+
+.fare-left h1 {
+    font-size: 40px;
+}
+
+.fare-left h2 {
+    margin-bottom: 20px;
+}
+
+.map-img {
+    width: 250px;
+    border-radius: 15px;
+}
+
+.fare-middle {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+select {
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.fare-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.regular-btn {
+    background-color: #d7d4a6;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.discount-btn {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.fare-right {
+    background-color: #d79aa4;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    width: 180px;
+}
+
+#fareResult {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+}

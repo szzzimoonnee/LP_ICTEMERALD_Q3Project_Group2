@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fare Matrix - Meowridery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="index.html">Home</a>
+            <a href="fare.html">Fare Matrix</a>
+            <a href="schedule.html">Schedule</a>
+            <a href="help.html">Help</a>
+        </div>
+
+        <div class="nav-center">
+            <img src="meowriderylogo.png" alt="logo">
+        </div>
+
+        <div class="nav-right">
+            <a href="book.html" class="book">Book Now</a>
+            <a href="signup.html" class="btn">Create account</a>
+        </div>
+    </nav>
+
+    <section class="main-box">
+
+        <div class="fare-container">
+
+            <div class="fare-left">
+                <h1><span class="pink-text">meowridery</span></h1>
+                <h2>Fare Matrix</h2>
+
+                <img src="map.png" alt="route map" class="map-img">
+            </div>
+
+            
+            <div class="fare-middle">
+
+                <label>Pickup:</label>
+                <select id="pickup">
+                    <option value="0">Baclaran</option>
+                    <option value="1">EDSA</option>
+                    <option value="2">Libertad</option>
+                    <option value="3">Gil Puyat</option>
+                    <option value="4">Vito Cruz</option>
+                </select>
+
+                <label>Dropoff:</label>
+                <select id="dropoff">
+                    <option value="0">Baclaran</option>
+                    <option value="1">EDSA</option>
+                    <option value="2">Libertad</option>
+                    <option value="3">Gil Puyat</option>
+                    <option value="4">Vito Cruz</option>
+                </select>
+
+                <div class="fare-buttons">
+                    <button class="regular-btn" onclick="computeFare(false)">Regular Fare</button>
+                    <button class="discount-btn" onclick="computeFare(true)">Discounted Fare</button>
+                </div>
+
+            </div>
+
+            <div class="fare-right">
+                <h2>Fare:</h2>
+                <div id="fareResult">₱0.00</div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        Cheang, Tinio, Viola | 9 - Emerald 2026
+    </footer>
+
+<script src="proj.js"></script>
+
+</body>
+</html>
